@@ -1,6 +1,4 @@
 ﻿
-using CommunityToolkit.Mvvm.Input;
-using System.Linq.Expressions;
 
 namespace MauiScientificCalculator.ViewModels
 {
