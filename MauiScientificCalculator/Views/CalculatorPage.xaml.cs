@@ -1,4 +1,4 @@
-using MauiScientificCalculator.ViewModels;
+
 
 namespace MauiScientificCalculator.Views;
 
@@ -8,6 +8,6 @@ public partial class CalculatorPage : ContentPage
 	{
 		InitializeComponent();
         //Initialize the view model
-        this.BindingContext = new CalculatorPageViewModel();
+        BindingContext = new CalculatorPageViewModel();
     }
 }

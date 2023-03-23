@@ -1,5 +1,4 @@
 ﻿
-
 namespace MauiScientificCalculator.ViewModels
 {
     [INotifyPropertyChanged]
@@ -36,10 +35,10 @@ namespace MauiScientificCalculator.ViewModels
             try
             {
                 var inputString = NormalizeInputString();
-               // var expression = new Expression(inputString);
-               // var result = expression.Evaluate();
+                var expression = new Expression(inputString);
+                var result = expression.Evaluate();
 
-               // CalculatedResult = result.ToString();
+                CalculatedResult = result.ToString();
             }
             catch (Exception ex)
             {

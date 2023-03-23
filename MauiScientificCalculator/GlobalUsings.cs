@@ -8,3 +8,5 @@ global using CommunityToolkit.Mvvm.ComponentModel;
 global using CommunityToolkit.Mvvm.Input;
 global using MauiScientificCalculator.Views;
 global using MauiScientificCalculator.ViewModels;
+global using NCalc;
+
